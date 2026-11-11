@@ -1,0 +1,51 @@
+HOW IT WORKS - Night Tide
+JIN2 · @jin_22ee
+
+The whole artwork is one Python file. Every cell of the screen asks
+"what part of the sea am I looking at, and how much light does it catch?"
+and the answer becomes a letter and a colour.
+
+1. The camera
+   We stand on the beach at night, looking out to sea. Each cell below the
+   horizon is turned into a point on the water: rows near the top are far
+   away, rows near the bottom are close. The last rows are sand.
+
+2. The sea surface
+   Ten swells of different sizes and directions are added together.
+   They are Gerstner waves: the water moves in small circles, so crests
+   come out sharp and troughs wide. Long waves travel faster than short
+   ones, like real deep water. Waves too small to see from far away are
+   faded out, so the distance does not turn into noise.
+
+3. Light on the water
+   There is no moon in the sky. For each cell the code works out which
+   way the water is tilted and what part of the night sky it mirrors.
+   Water seen at a low angle reflects more (the Fresnel effect), so the
+   far sea glows and the near sea stays dark. Lit crests can catch the
+   moon for a moment and flash silver.
+
+4. The breakers
+   Every 2.5 seconds a new wave comes in, and no two are the same:
+   different size, angle, bend and timing. Each one rolls in as a swell,
+   stands up with a bright lip, breaks into round white lumps with a
+   little spray, then rushes in as white water that tears into lace.
+   Small waves break further out, big ones close to the shore, so white
+   lines show at more than one depth.
+
+5. On the sand
+   The white water runs up the beach as a thin sheet with a scalloped
+   edge, slides back, and leaves a line of foam that slowly fades.
+   Far out, swell tops tip over into small whitecaps now and then.
+
+6. From light to letters
+   Darker water uses light letters (: ; 1 i), brighter water uses denser
+   ones (0 8 B $ #), and six blues run from deep navy to silver.
+   Foam is white, glitter is silver (* + ^ .).
+   Each frame fades into the next and a soft glow is added on top.
+
+Things you can try (for yourself)
+   SWELLS          the waves on the open sea
+   PERIOD, RISE    how often breakers come and how tall they stand
+   Z_BREAK         how close to the shore they break
+   HORIZON, EYE    where the horizon sits and how high you stand
+   TAG_COLOR       the colours

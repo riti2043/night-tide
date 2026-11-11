@@ -1,0 +1,18 @@
+Night Tide
+Copyright (c) 2026 JIN2 (@jin_22ee). All rights reserved.
+
+This code is shared for free. You may:
+  - run it on your own computer,
+  - read and study it,
+  - change it for your own personal projects and experiments.
+
+Please do not:
+  - sell it or any modified version of it,
+  - use it or its output in anything commercial
+    (ads, products, client work, monetised videos, NFTs, templates)
+    without written permission from JIN2,
+  - claim the artwork or the code as your own.
+
+If you post something you made with it, please credit @jin_22ee.
+
+This software is provided "as is", without warranty of any kind.
